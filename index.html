@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>跳动爱心</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background-color: black;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 200px;
+                margin-top: 260px;
+                color: brown;
+            }
+
+            h1:hover{
+                animation: action 0.8s linear infinite;
+            }
+
+            @keyframes action{
+                0%{
+                    transform: scale(1);
+                    opacity: 1;
+                }
+                100%{
+                    transform: scale(3);
+                    opacity: 0.3;
+                }
+            } 
+        </style>
+    </head>
+    <body>
+        <h1>❤️</h1>
+    </body>
+</html>
